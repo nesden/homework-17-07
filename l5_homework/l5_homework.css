@@ -1,0 +1,75 @@
+.ex5{
+    position: relative;
+}
+.planet{
+    z-index: 1;
+    display: inline;
+     width:200px;
+    position: relative;
+     left: 150px;
+     bottom: 450px; 
+}
+.galaxy{
+    
+    display: block;
+    
+    width: 1000px;
+}
+#left_planet{
+    width: 150px;
+}
+#mid_planet{
+    width: 200px;
+}
+#right_planet{
+    width: 300px;
+}
+.circ{
+    
+    border:solid white 2px;
+    border-radius: 50%;
+    
+    background-color: white;
+   
+    
+    
+}
+#circ1{
+    position: relative;
+    bottom: 350px;
+    left: 450px;
+    width:100px;
+    height: 100px;
+}
+#circ2{
+    position: relative;
+    bottom: 300px;
+    left:350px;
+    width:50px;
+    height: 50px;
+}
+#circ3{
+    position: relative;
+    bottom:600px;
+    left:600px;
+    width:24px;
+    height: 24px;
+}
+.heart{
+    border-collapse:collapse;
+    
+}
+
+
+
+td{
+    padding: 0%;
+    width: 30px;
+    height: 30px;
+}
+
+.square{
+    width: 30px;
+    height: 30px;
+    float: left;
+}
